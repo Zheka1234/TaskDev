@@ -1,4 +1,4 @@
-package com.miskevich;
+package com.miskevich.domain;
 
 public enum SystemRoles {
 
