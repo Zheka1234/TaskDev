@@ -1,0 +1,11 @@
+spring:
+  liquibase:
+    change-log: classpath:liquibase/changelog-master.yml
+    default-schema: "itacademy"
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Root
+    url: "jdbc:mysql://localhost:3306/ItAcademy"
+server:
+  port: 8081
